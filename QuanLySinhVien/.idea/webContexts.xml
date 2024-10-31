@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebContextManager">
+    <option name="state">
+      <map>
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/templates/admin/inc/menu.jsp" value="file://$PROJECT_DIR$/src/main/webapp/templates/admin/inc" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/views/admin/hocky.jsp" value="file://$PROJECT_DIR$/src/main/webapp/views/admin" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/views/admin/listdiem.jsp" value="file://$PROJECT_DIR$/src/main/webapp/views/admin" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/views/admin/monhoc.jsp" value="file://$PROJECT_DIR$/src/main/webapp/views/admin" />
+      </map>
+    </option>
+  </component>
+</project>

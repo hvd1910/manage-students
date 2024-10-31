@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+         version="6.0">
+
+
+
+
+
+    <servlet>
+        <servlet-name>AuthController</servlet-name>
+        <servlet-class>com.example.quanlysinhvien.controllers.AuthController</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AuthController</servlet-name>
+        <url-pattern>/auth/login</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AdminIndexController</servlet-name>
+        <servlet-class>com.example.quanlysinhvien.controllers.AdminIndexController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminIndexController</servlet-name>
+        <url-pattern>/admin</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AdminRolesController</servlet-name>
+        <servlet-class>com.example.quanlysinhvien.controllers.AdminRolesController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminRolesController</servlet-name>
+        <url-pattern>/admin/role</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AdminHocKyController</servlet-name>
+        <servlet-class>com.example.quanlysinhvien.controllers.AdminHocKyController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminHocKyController</servlet-name>
+        <url-pattern>/admin/hocky</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AdminKhoaController</servlet-name>
+        <servlet-class>com.example.quanlysinhvien.controllers.AdminKhoaController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminKhoaController</servlet-name>
+        <url-pattern>/admin/khoa</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AdminNamHocController</servlet-name>
+        <servlet-class>com.example.quanlysinhvien.controllers.AdminNamHocController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminNamHocController</servlet-name>
+        <url-pattern>/admin/namhoc</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AdminNienKhoaController</servlet-name>
+        <servlet-class>com.example.quanlysinhvien.controllers.AdminNienKhoaController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminNienKhoaController</servlet-name>
+        <url-pattern>/admin/nienkhoa</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AdminTheLoaiController</servlet-name>
+        <servlet-class>com.example.quanlysinhvien.controllers.AdminTheLoaiController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminTheLoaiController</servlet-name>
+        <url-pattern>/admin/theloai</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AdminTinChiController</servlet-name>
+        <servlet-class>com.example.quanlysinhvien.controllers.AdminTinChiController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminTinChiController</servlet-name>
+        <url-pattern>/admin/tinchi</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>AdminTaiKhoanController</servlet-name>
+        <servlet-class>com.example.quanlysinhvien.controllers.AdminTaiKhoanController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminTaiKhoanController</servlet-name>
+        <url-pattern>/admin/taikhoan</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AdminGiangVienController</servlet-name>
+        <servlet-class>com.example.quanlysinhvien.controllers.AdminGiangVienController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminGiangVienController</servlet-name>
+        <url-pattern>/admin/giangvien</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AdminMonHocController</servlet-name>
+        <servlet-class>com.example.quanlysinhvien.controllers.AdminMonHocController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminMonHocController</servlet-name>
+        <url-pattern>/admin/monhoc</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AdminLopController</servlet-name>
+        <servlet-class>com.example.quanlysinhvien.controllers.AdminLopController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminLopController</servlet-name>
+        <url-pattern>/admin/lop</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AdminSinhVienController</servlet-name>
+        <servlet-class>com.example.quanlysinhvien.controllers.AdminSinhVienController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminSinhVienController</servlet-name>
+        <url-pattern>/admin/sinhvien</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AdminScoreController</servlet-name>
+        <servlet-class>com.example.quanlysinhvien.controllers.AdminScoreController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminScoreController</servlet-name>
+        <url-pattern>/admin/diem</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>GiangVienDiemController</servlet-name>
+        <servlet-class>com.example.quanlysinhvien.controllers.GiangVienDiemController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GiangVienDiemController</servlet-name>
+        <url-pattern>/giangvien/diem</url-pattern>
+    </servlet-mapping>
+
+</web-app>

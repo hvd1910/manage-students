@@ -1,0 +1,44 @@
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <!-- Database connection settings -->
+        <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/quanlysinhvien</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.password"></property>
+
+        <!-- Specify dialect -->
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQL8Dialect</property>
+
+        <!-- Enable Hibernate's automatic session context management -->
+        <property name="hibernate.current_session_context_class">thread</property>
+
+        <!-- Echo all executed SQL to stdout -->
+        <property name="hibernate.show_sql">true</property>
+
+        <!-- Drop and re-create the database schema on startup -->
+        <property name="hibernate.hbm2ddl.auto">update</property>
+
+        <!-- Names the annotated entity class -->
+        <mapping class="com.example.quanlysinhvien.models.TaiKhoan"/>
+        <mapping class="com.example.quanlysinhvien.models.Roles"/>
+        <mapping class="com.example.quanlysinhvien.models.HocKy"/>
+        <mapping class="com.example.quanlysinhvien.models.Khoa"/>
+        <mapping class="com.example.quanlysinhvien.models.Lop"/>
+        <mapping class="com.example.quanlysinhvien.models.MonHoc"/>
+        <mapping class="com.example.quanlysinhvien.models.NamHoc"/>
+        <mapping class="com.example.quanlysinhvien.models.NienKhoa"/>
+        <mapping class="com.example.quanlysinhvien.models.SinhVien"/>
+        <mapping class="com.example.quanlysinhvien.models.TheLoai"/>
+        <mapping class="com.example.quanlysinhvien.models.TinChi"/>
+        <mapping class="com.example.quanlysinhvien.models.XepLoai"/>
+        <mapping class="com.example.quanlysinhvien.models.GiangVien"/>
+        <mapping class="com.example.quanlysinhvien.models.Diem"/>
+
+
+
+
+
+
+    </session-factory>
+</hibernate-configuration>
